@@ -1,6 +1,6 @@
-# custom_backgammon
+# custom_Gobang
 
-**Implement custom backgammon in C, which includes the ability to customize the board size, customize single or double matches, and customize the number of winning pieces**
+**Implement custom Gobang in C, which includes the ability to customize the board size, customize single or double matches, and customize the number of winning pieces**
 
 - ### Source file composition
 
