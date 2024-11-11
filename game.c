@@ -17,8 +17,16 @@ void InitBoard(char board[ROW][COL], int row, int col)
 
 void DisplayBoard(char board[ROW][COL], int row, int col)
 {
+	for (int i = 1; i <= col; i++)
+	{
+		printf("%4d", i);
+	}
+	printf("\n");
+	int row_num = 1;
 	for (int i = 0; i < row; i++)
 	{
+		printf("%2d", row_num);
+		row_num++;
 		for (int j = 0; j < col; j++)
 		{
 			printf(" %c ", board[i][j]);
@@ -26,6 +34,7 @@ void DisplayBoard(char board[ROW][COL], int row, int col)
 				printf("|");
 		}
 		printf("\n");
+		printf("  ");
 		if (i < row - 1)
 		{
 			for (int j = 0; j < col; j++)

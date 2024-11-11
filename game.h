@@ -7,11 +7,11 @@
 
 //符号的定义
 //棋盘行数
-#define ROW 3
+#define ROW 17
 //棋盘列数
-#define COL 3
+#define COL 17
 //赢棋个数
-#define CHESS_NUM 3
+#define CHESS_NUM 5
 
 
 //函数的声明
@@ -19,7 +19,7 @@
 //设置界面
 int setting(int input_setting, int* model);
 //游戏主体
-void game();
+void game(int model);
 //初始化棋盘
 void InitBoard(char board[ROW][COL], int row, int col);
 
